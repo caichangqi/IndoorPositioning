@@ -456,7 +456,6 @@ public class PDRActivity extends AppCompatActivity implements SensorEventListene
 
                     long timeElapsedFromLastStep = event.timestamp - stepTimeStamp.get(stepTimeStamp.size() - 1);
 
-
                     if (event.timestamp/1000000L - stepTimeStamp.get(stepTimeStamp.size() - 1)/1000000L
                             < 1500){
 
