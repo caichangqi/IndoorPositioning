@@ -1,15 +1,6 @@
-
-<style>
-img{
-    width: 26%;
-    padding-left: 5%;
-    border: 1px;
-    display: inline;
-}
-</style>
 # 用户手册
 ### 使用源代码
-你需要添加百度地图相关的so包才能使用此程序。相关的包添加到jniLibs文件夹下面即可。本程序依赖于地图包进行可视化绘制。
+你需要添加百度地图相关的so包才能使用此程序。相关的包添加到jniLibs文件夹下面即可。本程序依赖于地图包进行可视化绘制。
 
 ### 简介
 
@@ -17,7 +8,7 @@ img{
 
 #### WIFI定位功能
 
-![wifi1](/media/wifi_positioning_1.png) ![wifi1](/media/wifi_positioning_2.png) ![choose_algorithm](/media/algorithm_pick.png)
+![wifi1](/media/wifi_positioning_1.png) ![wifi1](/media/wifi_positioning_2.png) ![choose_algorithm](/media/algorithm_pick.png)
 - 添加结束接入点和采样点之后，采样点会被绘制到地图上，随着wifi强度信息的积累，定位的位置会随着用户的走动不断变化。
 - 使用WIFI 定位功能之前，用户可以选择使用的算法。系统实现了几种基本算法：KNN(Euclidean \ Cosine) \ Bayes。用户可以使用不同的算法进行试验。
 
