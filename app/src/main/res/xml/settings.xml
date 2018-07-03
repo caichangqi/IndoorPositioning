@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Algorithms">
+        <ListPreference
+            android:defaultValue="4"
+            android:entries="@array/algoNames"
+            android:entryValues="@array/algoValues"
+            android:key="prefAlgo"
+            android:summary="选择使用的算法"
+            android:title="选择算法" />
+    </PreferenceCategory>
+</PreferenceScreen>
