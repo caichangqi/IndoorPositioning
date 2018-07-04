@@ -122,6 +122,8 @@ K近邻算法的最终效果并不足够好，通过进一步的观察，我们�
 - 经过测试，信号强度和手机空间朝向有关，不得不在指纹中添加方向信息，导致参考点数量大量增加。
 - 指纹库无法快速建立。按照一个点采样10次，一次采样3秒间隔，每个点四个大概方向计算，采样$400m^2$内所有的点，消耗的时间在几个小时左右。
 
+![signal_direction_variation](/assets/signal_direction_variation.png) ![typical_time_sequence](/assets/typical_time_sequence.png)
+
 ##### RSSI算法可能的改进方向
 - 降低低强度信号的计算权重，提高高质量信号的权重。
 - 计算上，可以通过排除距离过大参考点来实现加速。
