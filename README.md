@@ -139,6 +139,10 @@ Android 提供的开发包给开发带来了很大便利，提供了包括自动
 
 传感器融合本身涉及到一套复杂的算法，在Android平台上可能已经通过软件甚至硬件实现。AHRS有很多种实现方法，其中比较著名的包括[Madgwick方法](http://www.x-io.co.uk/res/doc/madgwick_internal_report.pdf)。
 
+- 典型手持设备加速度时间序列
+
+![typical_acceleration_plot](/assets/typical_acceleration_plot.png)
+
 - 步长估计公式
 
 $$
